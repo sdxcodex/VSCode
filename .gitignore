@@ -1,0 +1,104 @@
+
+# ==========================================
+# 1. C / C++ EXECUTABLES AND COMPILED FILES
+# ==========================================
+
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pdb
+*.ilk
+*.pch
+*.gch
+*.class
+
+# ==========================================
+# 2. BUILD AND DEBUG DIRECTORIES
+# ==========================================
+
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+out/
+cmake-build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.generated
+compile_commands.json
+
+# ==========================================
+# 3. TEMPORARY AND BACKUP FILES
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.swo
+*~
+
+# ==========================================
+# 4. LOG FILES
+# ==========================================
+
+*.log
+logs/
+
+# ==========================================
+# 5. WINDOWS SYSTEM FILES
+# ==========================================
+
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# 6. MAC SYSTEM FILES
+# ==========================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ==========================================
+# 7. VS CODE / IDE FILES
+# ==========================================
+
+.vs/
+.idea/
+
+# Optional: ignore all VS Code settings
+# Uncomment only if you don't want to share them
+# .vscode/
+
+# ==========================================
+# 8. ENVIRONMENT AND SECRET FILES
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# 9. PACKAGE AND CACHE FILES
+# ==========================================
+
+.cache/
+tmp/
+temp/
+.npm/
+__pycache__/

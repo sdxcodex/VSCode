@@ -1,0 +1,26 @@
+#include <stdio.h>
+void inc(int n){
+     if(n==0) return;
+     printf("%d\n",n);
+     inc(n-1);
+     return;
+}
+    int main () {
+        int n;
+        scanf("%d",&n);
+        inc(n);
+
+
+
+
+
+
+
+
+
+
+
+
+
+        return 0;
+    }
