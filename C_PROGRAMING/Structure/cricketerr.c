@@ -20,14 +20,5 @@ int main () {
     printf("%d\n",a[i].matches);
     printf("%f\n",a[i].average);  
 }
-
-
-
-
-
-
-
-
-
-    return 0;
+   return 0;
 }

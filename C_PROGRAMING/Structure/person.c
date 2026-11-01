@@ -8,7 +8,7 @@ struct person
 }s1,s2;
 
 int main () {
-    scanf("%s",s1.name);
+    scanf("%[^\n]s",s1.name);
     printf("%s",s1.name);
     scanf("%d",&s2.age);
     printf("%d",s2.age);
