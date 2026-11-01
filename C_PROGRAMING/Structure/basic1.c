@@ -14,8 +14,11 @@ int main () {
     printf("%f",s1.persentage);
     scanf("%s",s1.cgpa);
     printf("%s",s1.cgpa);
-
-
+    strcpy(s1.cgpa,"atherv");
+    printf("%d",s1.cgpa);
+    strcpy(s1.cgpa,"atherv");
+    // printf("%s",s1.cgpa);
+    pri
 
 
 

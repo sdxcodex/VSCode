@@ -5,15 +5,17 @@ int main () {
         int marks ;
         float persentage;
         char cgpa[50];
-        
-    }a;
-    struct x s1;
+        char c[50];
+    }s1,s2;
+   
     scanf("%d",&s1.marks);
     printf("%d",s1.marks);
     scanf("%f",&s1.persentage);
     printf("%f",s1.persentage);
     scanf("%s",s1.cgpa);
     printf("%s",s1.cgpa);
+    strcpy(s1.c,"shiv");
+    printf("%s",s1.c);
 
 
 
