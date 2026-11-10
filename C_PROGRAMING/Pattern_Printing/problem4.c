@@ -14,7 +14,6 @@ int main ()
         if(j>n) b = 2*n -j;
         if(a<b) printf("%d",n+1-a);
         else printf("%d",n+1-b);
-        
      }
      printf("\n");
  }
