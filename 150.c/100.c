@@ -6,7 +6,7 @@ int main()
 {
     int id[MAX], stock[MAX];
     int n;
-
+    
     printf("Enter number of products: ");
     scanf("%d", &n);
 
@@ -208,7 +208,7 @@ int main()
             else
             {
                 for(int i = pos; i < n - 1; i++)
-                {
+                { 
                     id[i] = id[i + 1];
                     stock[i] = stock[i + 1];
                 }
